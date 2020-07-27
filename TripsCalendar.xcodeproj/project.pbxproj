@@ -1,0 +1,992 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B34356124CDCAF000D7B469 /* NewTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34356024CDCAF000D7B469 /* NewTripView.swift */; };
+		6B34356224CDCAF000D7B469 /* NewTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34356024CDCAF000D7B469 /* NewTripView.swift */; };
+		6B34356424CEBE7B00D7B469 /* Deeplinker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34356324CEBE7B00D7B469 /* Deeplinker.swift */; };
+		6B34356524CEBE7B00D7B469 /* Deeplinker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34356324CEBE7B00D7B469 /* Deeplinker.swift */; };
+		6B34356724CEBEC100D7B469 /* URL+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34356624CEBEC100D7B469 /* URL+App.swift */; };
+		6B34356824CEBEC100D7B469 /* URL+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34356624CEBEC100D7B469 /* URL+App.swift */; };
+		6B34356F24CEC3FB00D7B469 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B34356E24CEC3FB00D7B469 /* WidgetKit.framework */; };
+		6B34357124CEC3FB00D7B469 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B34357024CEC3FB00D7B469 /* SwiftUI.framework */; };
+		6B34357424CEC3FB00D7B469 /* TripsCalendarWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34357324CEC3FB00D7B469 /* TripsCalendarWidget.swift */; };
+		6B34357624CEC3FD00D7B469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B34357524CEC3FD00D7B469 /* Assets.xcassets */; };
+		6B34357A24CEC3FD00D7B469 /* TripsCalendarWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6B34356D24CEC3FB00D7B469 /* TripsCalendarWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6B34358924CED9BF00D7B469 /* CalendarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34358824CED9BF00D7B469 /* CalendarProvider.swift */; };
+		6B34358B24CEDA2500D7B469 /* CalendarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34358A24CEDA2500D7B469 /* CalendarEntry.swift */; };
+		6B34358D24CEDA8C00D7B469 /* CalendarWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34358C24CEDA8C00D7B469 /* CalendarWidgetEntryView.swift */; };
+		6B34358E24CEDCA500D7B469 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A1E24CC773000D8275A /* Trip.swift */; };
+		6B34358F24CEDCE300D7B469 /* TripsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88105624CDC6AD0050A4FE /* TripsStore.swift */; };
+		6B34359024CEDD7700D7B469 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2B24CC80C400D8275A /* Date+Utils.swift */; };
+		6B34359124CEDFBD00D7B469 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE7A2624CC8BC80057AC0A /* Location.swift */; };
+		6B34359424CEE14E00D7B469 /* CalendarEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2524CC78C000D8275A /* CalendarEntryView.swift */; };
+		6B34359524CEE15F00D7B469 /* Colors+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2224CC780A00D8275A /* Colors+App.swift */; };
+		6B34359624CEE1AA00D7B469 /* URL+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34356624CEBEC100D7B469 /* URL+App.swift */; };
+		6B34359724CEE36100D7B469 /* UIImage+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2824CC7CF100D8275A /* UIImage+App.swift */; };
+		6B34359924CEE3BB00D7B469 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B34359824CEE3BB00D7B469 /* SharedAssets.xcassets */; };
+		6B34359A24CEE3EC00D7B469 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B34359824CEE3BB00D7B469 /* SharedAssets.xcassets */; };
+		6B34359B24CEE3EC00D7B469 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B34359824CEE3BB00D7B469 /* SharedAssets.xcassets */; };
+		6B34359D24CEE55300D7B469 /* CalendarWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34359C24CEE55300D7B469 /* CalendarWidget.swift */; };
+		6B34359F24CEE72400D7B469 /* NextTripEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34359E24CEE72400D7B469 /* NextTripEntry.swift */; };
+		6B3435A124CEE79A00D7B469 /* NextTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3435A024CEE79A00D7B469 /* NextTripView.swift */; };
+		6B3435A324CEE89200D7B469 /* NextTripDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3435A224CEE89200D7B469 /* NextTripDescriptionView.swift */; };
+		6B3435A524CEE9D500D7B469 /* NextTripEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3435A424CEE9D500D7B469 /* NextTripEntryView.swift */; };
+		6B3435A724CEEA5100D7B469 /* NextTripProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3435A624CEEA5100D7B469 /* NextTripProvider.swift */; };
+		6B3435BF24CEEBC400D7B469 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3435BE24CEEBC400D7B469 /* IntentHandler.swift */; };
+		6B3435C324CEEBC400D7B469 /* NextTripIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6B3435BC24CEEBC400D7B469 /* NextTripIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6B3435C924CEEC0C00D7B469 /* NextTrip.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6B3435C724CEEC0C00D7B469 /* NextTrip.intentdefinition */; };
+		6B3435CA24CEEC1F00D7B469 /* NextTrip.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6B3435C724CEEC0C00D7B469 /* NextTrip.intentdefinition */; };
+		6B3435CC24CEEC7500D7B469 /* NextTrip.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6B3435C724CEEC0C00D7B469 /* NextTrip.intentdefinition */; };
+		6B3435CD24CEECAF00D7B469 /* NextTrip.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6B3435C724CEEC0C00D7B469 /* NextTrip.intentdefinition */; };
+		6B3435CE24CEEEDC00D7B469 /* TripsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88105624CDC6AD0050A4FE /* TripsStore.swift */; };
+		6B3435CF24CEEFCB00D7B469 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A1E24CC773000D8275A /* Trip.swift */; };
+		6B3435D124CEEFF400D7B469 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE7A2624CC8BC80057AC0A /* Location.swift */; };
+		6B3435D324CEF59A00D7B469 /* NextTripWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3435D224CEF59A00D7B469 /* NextTripWidget.swift */; };
+		6B88105724CDC6AD0050A4FE /* TripsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88105624CDC6AD0050A4FE /* TripsStore.swift */; };
+		6B88105824CDC6AD0050A4FE /* TripsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88105624CDC6AD0050A4FE /* TripsStore.swift */; };
+		6B8B3A0B24CC768700D8275A /* TripsCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B39F824CC768500D8275A /* TripsCalendarApp.swift */; };
+		6B8B3A0C24CC768700D8275A /* TripsCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B39F824CC768500D8275A /* TripsCalendarApp.swift */; };
+		6B8B3A0D24CC768700D8275A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B39F924CC768500D8275A /* ContentView.swift */; };
+		6B8B3A0E24CC768700D8275A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B39F924CC768500D8275A /* ContentView.swift */; };
+		6B8B3A0F24CC768700D8275A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B39FA24CC768700D8275A /* Assets.xcassets */; };
+		6B8B3A1024CC768700D8275A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B39FA24CC768700D8275A /* Assets.xcassets */; };
+		6B8B3A1B24CC76FD00D8275A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A1A24CC76FD00D8275A /* CalendarView.swift */; };
+		6B8B3A1C24CC76FD00D8275A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A1A24CC76FD00D8275A /* CalendarView.swift */; };
+		6B8B3A1F24CC773000D8275A /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A1E24CC773000D8275A /* Trip.swift */; };
+		6B8B3A2024CC773000D8275A /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A1E24CC773000D8275A /* Trip.swift */; };
+		6B8B3A2324CC780A00D8275A /* Colors+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2224CC780A00D8275A /* Colors+App.swift */; };
+		6B8B3A2424CC780A00D8275A /* Colors+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2224CC780A00D8275A /* Colors+App.swift */; };
+		6B8B3A2624CC78C000D8275A /* CalendarEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2524CC78C000D8275A /* CalendarEntryView.swift */; };
+		6B8B3A2724CC78C000D8275A /* CalendarEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2524CC78C000D8275A /* CalendarEntryView.swift */; };
+		6B8B3A2924CC7CF100D8275A /* UIImage+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2824CC7CF100D8275A /* UIImage+App.swift */; };
+		6B8B3A2A24CC7CF100D8275A /* UIImage+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2824CC7CF100D8275A /* UIImage+App.swift */; };
+		6B8B3A2C24CC80C400D8275A /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2B24CC80C400D8275A /* Date+Utils.swift */; };
+		6B8B3A2D24CC80C400D8275A /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2B24CC80C400D8275A /* Date+Utils.swift */; };
+		6B8B3A2F24CC82EC00D8275A /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2E24CC82EC00D8275A /* TripDetailView.swift */; };
+		6B8B3A3024CC82EC00D8275A /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B3A2E24CC82EC00D8275A /* TripDetailView.swift */; };
+		6BAE7A2724CC8BC80057AC0A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE7A2624CC8BC80057AC0A /* Location.swift */; };
+		6BAE7A2824CC8BC80057AC0A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE7A2624CC8BC80057AC0A /* Location.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B34357824CEC3FD00D7B469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B8B39F324CC768500D8275A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B34356C24CEC3FB00D7B469;
+			remoteInfo = TripsCalendarWidgetExtension;
+		};
+		6B3435C124CEEBC400D7B469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B8B39F324CC768500D8275A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3435BB24CEEBC400D7B469;
+			remoteInfo = NextTripIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B34357E24CEC3FD00D7B469 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6B3435C324CEEBC400D7B469 /* NextTripIntent.appex in Embed App Extensions */,
+				6B34357A24CEC3FD00D7B469 /* TripsCalendarWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B34356024CDCAF000D7B469 /* NewTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTripView.swift; sourceTree = "<group>"; };
+		6B34356324CEBE7B00D7B469 /* Deeplinker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deeplinker.swift; sourceTree = "<group>"; };
+		6B34356624CEBEC100D7B469 /* URL+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+App.swift"; sourceTree = "<group>"; };
+		6B34356D24CEC3FB00D7B469 /* TripsCalendarWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TripsCalendarWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B34356E24CEC3FB00D7B469 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6B34357024CEC3FB00D7B469 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6B34357324CEC3FB00D7B469 /* TripsCalendarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsCalendarWidget.swift; sourceTree = "<group>"; };
+		6B34357524CEC3FD00D7B469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B34357724CEC3FD00D7B469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B34358724CED6E600D7B469 /* TripsCalendarWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TripsCalendarWidgetExtension.entitlements; sourceTree = "<group>"; };
+		6B34358824CED9BF00D7B469 /* CalendarProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarProvider.swift; sourceTree = "<group>"; };
+		6B34358A24CEDA2500D7B469 /* CalendarEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEntry.swift; sourceTree = "<group>"; };
+		6B34358C24CEDA8C00D7B469 /* CalendarWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWidgetEntryView.swift; sourceTree = "<group>"; };
+		6B34359824CEE3BB00D7B469 /* SharedAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SharedAssets.xcassets; sourceTree = "<group>"; };
+		6B34359C24CEE55300D7B469 /* CalendarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWidget.swift; sourceTree = "<group>"; };
+		6B34359E24CEE72400D7B469 /* NextTripEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTripEntry.swift; sourceTree = "<group>"; };
+		6B3435A024CEE79A00D7B469 /* NextTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTripView.swift; sourceTree = "<group>"; };
+		6B3435A224CEE89200D7B469 /* NextTripDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTripDescriptionView.swift; sourceTree = "<group>"; };
+		6B3435A424CEE9D500D7B469 /* NextTripEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTripEntryView.swift; sourceTree = "<group>"; };
+		6B3435A624CEEA5100D7B469 /* NextTripProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTripProvider.swift; sourceTree = "<group>"; };
+		6B3435BC24CEEBC400D7B469 /* NextTripIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NextTripIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B3435BE24CEEBC400D7B469 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		6B3435C024CEEBC400D7B469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B3435C724CEEC0C00D7B469 /* NextTrip.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = NextTrip.intentdefinition; sourceTree = "<group>"; };
+		6B3435D224CEF59A00D7B469 /* NextTripWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTripWidget.swift; sourceTree = "<group>"; };
+		6B88105224CDBD270050A4FE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		6B88105524CDC5650050A4FE /* TripsCalendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TripsCalendar.entitlements; sourceTree = "<group>"; };
+		6B88105624CDC6AD0050A4FE /* TripsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsStore.swift; sourceTree = "<group>"; };
+		6B8B39F824CC768500D8275A /* TripsCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsCalendarApp.swift; sourceTree = "<group>"; };
+		6B8B39F924CC768500D8275A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B8B39FA24CC768700D8275A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B8B39FF24CC768700D8275A /* TripsCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripsCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8B3A0224CC768700D8275A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8B3A0724CC768700D8275A /* TripsCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripsCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8B3A0924CC768700D8275A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8B3A0A24CC768700D8275A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6B8B3A1A24CC76FD00D8275A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		6B8B3A1E24CC773000D8275A /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		6B8B3A2224CC780A00D8275A /* Colors+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+App.swift"; sourceTree = "<group>"; };
+		6B8B3A2524CC78C000D8275A /* CalendarEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEntryView.swift; sourceTree = "<group>"; };
+		6B8B3A2824CC7CF100D8275A /* UIImage+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+App.swift"; sourceTree = "<group>"; };
+		6B8B3A2B24CC80C400D8275A /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		6B8B3A2E24CC82EC00D8275A /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		6BAE7A2624CC8BC80057AC0A /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B34356A24CEC3FB00D7B469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B34357124CEC3FB00D7B469 /* SwiftUI.framework in Frameworks */,
+				6B34356F24CEC3FB00D7B469 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B3435B924CEEBC400D7B469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8B39FC24CC768700D8275A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8B3A0424CC768700D8275A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B34357224CEC3FB00D7B469 /* TripsCalendarWidget */ = {
+			isa = PBXGroup;
+			children = (
+				6B34357324CEC3FB00D7B469 /* TripsCalendarWidget.swift */,
+				6B34357F24CEC40D00D7B469 /* Calendar */,
+				6B34358024CEC41900D7B469 /* NextTrip */,
+				6B34357524CEC3FD00D7B469 /* Assets.xcassets */,
+				6B34357724CEC3FD00D7B469 /* Info.plist */,
+			);
+			path = TripsCalendarWidget;
+			sourceTree = "<group>";
+		};
+		6B34357F24CEC40D00D7B469 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				6B34358324CEC43D00D7B469 /* Entry */,
+				6B34358124CEC42800D7B469 /* Provider */,
+				6B34358524CEC44D00D7B469 /* Views */,
+				6B34359C24CEE55300D7B469 /* CalendarWidget.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		6B34358024CEC41900D7B469 /* NextTrip */ = {
+			isa = PBXGroup;
+			children = (
+				6B34358424CEC44500D7B469 /* Entry */,
+				6B34358224CEC43300D7B469 /* Provider */,
+				6B34358624CEC45400D7B469 /* Views */,
+				6B3435D224CEF59A00D7B469 /* NextTripWidget.swift */,
+			);
+			path = NextTrip;
+			sourceTree = "<group>";
+		};
+		6B34358124CEC42800D7B469 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				6B34358824CED9BF00D7B469 /* CalendarProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		6B34358224CEC43300D7B469 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				6B3435A624CEEA5100D7B469 /* NextTripProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		6B34358324CEC43D00D7B469 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				6B34358A24CEDA2500D7B469 /* CalendarEntry.swift */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		6B34358424CEC44500D7B469 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				6B34359E24CEE72400D7B469 /* NextTripEntry.swift */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		6B34358524CEC44D00D7B469 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B34358C24CEDA8C00D7B469 /* CalendarWidgetEntryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B34358624CEC45400D7B469 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B3435A024CEE79A00D7B469 /* NextTripView.swift */,
+				6B3435A224CEE89200D7B469 /* NextTripDescriptionView.swift */,
+				6B3435A424CEE9D500D7B469 /* NextTripEntryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B3435BD24CEEBC400D7B469 /* NextTripIntent */ = {
+			isa = PBXGroup;
+			children = (
+				6B3435BE24CEEBC400D7B469 /* IntentHandler.swift */,
+				6B3435C024CEEBC400D7B469 /* Info.plist */,
+			);
+			path = NextTripIntent;
+			sourceTree = "<group>";
+		};
+		6B88105124CDBD270050A4FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B88105224CDBD270050A4FE /* MapKit.framework */,
+				6B34356E24CEC3FB00D7B469 /* WidgetKit.framework */,
+				6B34357024CEC3FB00D7B469 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B8B39F224CC768500D8275A = {
+			isa = PBXGroup;
+			children = (
+				6B34358724CED6E600D7B469 /* TripsCalendarWidgetExtension.entitlements */,
+				6B88105524CDC5650050A4FE /* TripsCalendar.entitlements */,
+				6B8B39F724CC768500D8275A /* Shared */,
+				6B8B3A0124CC768700D8275A /* iOS */,
+				6B8B3A0824CC768700D8275A /* macOS */,
+				6B34357224CEC3FB00D7B469 /* TripsCalendarWidget */,
+				6B3435BD24CEEBC400D7B469 /* NextTripIntent */,
+				6B8B3A0024CC768700D8275A /* Products */,
+				6B88105124CDBD270050A4FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B8B39F724CC768500D8275A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B39F824CC768500D8275A /* TripsCalendarApp.swift */,
+				6B8B3A2124CC77F300D8275A /* Utilities+Extensions */,
+				6B8B3A1D24CC770B00D8275A /* Models */,
+				6B8B3A1924CC76DC00D8275A /* Views */,
+				6B8B39FA24CC768700D8275A /* Assets.xcassets */,
+				6B34359824CEE3BB00D7B469 /* SharedAssets.xcassets */,
+				6B3435C724CEEC0C00D7B469 /* NextTrip.intentdefinition */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6B8B3A0024CC768700D8275A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B39FF24CC768700D8275A /* TripsCalendar.app */,
+				6B8B3A0724CC768700D8275A /* TripsCalendar.app */,
+				6B34356D24CEC3FB00D7B469 /* TripsCalendarWidgetExtension.appex */,
+				6B3435BC24CEEBC400D7B469 /* NextTripIntent.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B8B3A0124CC768700D8275A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B3A0224CC768700D8275A /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6B8B3A0824CC768700D8275A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B3A0924CC768700D8275A /* Info.plist */,
+				6B8B3A0A24CC768700D8275A /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		6B8B3A1924CC76DC00D8275A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B39F924CC768500D8275A /* ContentView.swift */,
+				6B8B3A1A24CC76FD00D8275A /* CalendarView.swift */,
+				6B8B3A2524CC78C000D8275A /* CalendarEntryView.swift */,
+				6B8B3A2E24CC82EC00D8275A /* TripDetailView.swift */,
+				6B34356024CDCAF000D7B469 /* NewTripView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B8B3A1D24CC770B00D8275A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B3A1E24CC773000D8275A /* Trip.swift */,
+				6BAE7A2624CC8BC80057AC0A /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6B8B3A2124CC77F300D8275A /* Utilities+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B3A2224CC780A00D8275A /* Colors+App.swift */,
+				6B8B3A2824CC7CF100D8275A /* UIImage+App.swift */,
+				6B8B3A2B24CC80C400D8275A /* Date+Utils.swift */,
+				6B88105624CDC6AD0050A4FE /* TripsStore.swift */,
+				6B34356324CEBE7B00D7B469 /* Deeplinker.swift */,
+				6B34356624CEBEC100D7B469 /* URL+App.swift */,
+			);
+			path = "Utilities+Extensions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B34356C24CEC3FB00D7B469 /* TripsCalendarWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B34357B24CEC3FD00D7B469 /* Build configuration list for PBXNativeTarget "TripsCalendarWidgetExtension" */;
+			buildPhases = (
+				6B34356924CEC3FB00D7B469 /* Sources */,
+				6B34356A24CEC3FB00D7B469 /* Frameworks */,
+				6B34356B24CEC3FB00D7B469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripsCalendarWidgetExtension;
+			productName = TripsCalendarWidgetExtension;
+			productReference = 6B34356D24CEC3FB00D7B469 /* TripsCalendarWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6B3435BB24CEEBC400D7B469 /* NextTripIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B3435C424CEEBC400D7B469 /* Build configuration list for PBXNativeTarget "NextTripIntent" */;
+			buildPhases = (
+				6B3435B824CEEBC400D7B469 /* Sources */,
+				6B3435B924CEEBC400D7B469 /* Frameworks */,
+				6B3435BA24CEEBC400D7B469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NextTripIntent;
+			productName = NextTripIntent;
+			productReference = 6B3435BC24CEEBC400D7B469 /* NextTripIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6B8B39FE24CC768700D8275A /* TripsCalendar (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8B3A1324CC768700D8275A /* Build configuration list for PBXNativeTarget "TripsCalendar (iOS)" */;
+			buildPhases = (
+				6B8B39FB24CC768700D8275A /* Sources */,
+				6B8B39FC24CC768700D8275A /* Frameworks */,
+				6B8B39FD24CC768700D8275A /* Resources */,
+				6B34357E24CEC3FD00D7B469 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B34357924CEC3FD00D7B469 /* PBXTargetDependency */,
+				6B3435C224CEEBC400D7B469 /* PBXTargetDependency */,
+			);
+			name = "TripsCalendar (iOS)";
+			productName = "TripsCalendar (iOS)";
+			productReference = 6B8B39FF24CC768700D8275A /* TripsCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B8B3A0624CC768700D8275A /* TripsCalendar (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8B3A1624CC768700D8275A /* Build configuration list for PBXNativeTarget "TripsCalendar (macOS)" */;
+			buildPhases = (
+				6B8B3A0324CC768700D8275A /* Sources */,
+				6B8B3A0424CC768700D8275A /* Frameworks */,
+				6B8B3A0524CC768700D8275A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TripsCalendar (macOS)";
+			productName = "TripsCalendar (macOS)";
+			productReference = 6B8B3A0724CC768700D8275A /* TripsCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B8B39F324CC768500D8275A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6B34356C24CEC3FB00D7B469 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					6B3435BB24CEEBC400D7B469 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					6B8B39FE24CC768700D8275A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					6B8B3A0624CC768700D8275A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 6B8B39F624CC768500D8275A /* Build configuration list for PBXProject "TripsCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B8B39F224CC768500D8275A;
+			productRefGroup = 6B8B3A0024CC768700D8275A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B8B39FE24CC768700D8275A /* TripsCalendar (iOS) */,
+				6B8B3A0624CC768700D8275A /* TripsCalendar (macOS) */,
+				6B34356C24CEC3FB00D7B469 /* TripsCalendarWidgetExtension */,
+				6B3435BB24CEEBC400D7B469 /* NextTripIntent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B34356B24CEC3FB00D7B469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B34357624CEC3FD00D7B469 /* Assets.xcassets in Resources */,
+				6B34359924CEE3BB00D7B469 /* SharedAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B3435BA24CEEBC400D7B469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8B39FD24CC768700D8275A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8B3A0F24CC768700D8275A /* Assets.xcassets in Resources */,
+				6B34359B24CEE3EC00D7B469 /* SharedAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8B3A0524CC768700D8275A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8B3A1024CC768700D8275A /* Assets.xcassets in Resources */,
+				6B34359A24CEE3EC00D7B469 /* SharedAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B34356924CEC3FB00D7B469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3435CD24CEECAF00D7B469 /* NextTrip.intentdefinition in Sources */,
+				6B34359F24CEE72400D7B469 /* NextTripEntry.swift in Sources */,
+				6B3435A724CEEA5100D7B469 /* NextTripProvider.swift in Sources */,
+				6B3435A524CEE9D500D7B469 /* NextTripEntryView.swift in Sources */,
+				6B34358F24CEDCE300D7B469 /* TripsStore.swift in Sources */,
+				6B34358E24CEDCA500D7B469 /* Trip.swift in Sources */,
+				6B34359724CEE36100D7B469 /* UIImage+App.swift in Sources */,
+				6B34359524CEE15F00D7B469 /* Colors+App.swift in Sources */,
+				6B3435A124CEE79A00D7B469 /* NextTripView.swift in Sources */,
+				6B34359124CEDFBD00D7B469 /* Location.swift in Sources */,
+				6B34358924CED9BF00D7B469 /* CalendarProvider.swift in Sources */,
+				6B34358D24CEDA8C00D7B469 /* CalendarWidgetEntryView.swift in Sources */,
+				6B3435A324CEE89200D7B469 /* NextTripDescriptionView.swift in Sources */,
+				6B3435D324CEF59A00D7B469 /* NextTripWidget.swift in Sources */,
+				6B34359624CEE1AA00D7B469 /* URL+App.swift in Sources */,
+				6B34357424CEC3FB00D7B469 /* TripsCalendarWidget.swift in Sources */,
+				6B34359424CEE14E00D7B469 /* CalendarEntryView.swift in Sources */,
+				6B34359D24CEE55300D7B469 /* CalendarWidget.swift in Sources */,
+				6B34359024CEDD7700D7B469 /* Date+Utils.swift in Sources */,
+				6B34358B24CEDA2500D7B469 /* CalendarEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B3435B824CEEBC400D7B469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3435CF24CEEFCB00D7B469 /* Trip.swift in Sources */,
+				6B3435CE24CEEEDC00D7B469 /* TripsStore.swift in Sources */,
+				6B3435C924CEEC0C00D7B469 /* NextTrip.intentdefinition in Sources */,
+				6B3435D124CEEFF400D7B469 /* Location.swift in Sources */,
+				6B3435BF24CEEBC400D7B469 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8B39FB24CC768700D8275A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3435CA24CEEC1F00D7B469 /* NextTrip.intentdefinition in Sources */,
+				6B34356424CEBE7B00D7B469 /* Deeplinker.swift in Sources */,
+				6B8B3A0D24CC768700D8275A /* ContentView.swift in Sources */,
+				6B88105724CDC6AD0050A4FE /* TripsStore.swift in Sources */,
+				6BAE7A2724CC8BC80057AC0A /* Location.swift in Sources */,
+				6B8B3A2F24CC82EC00D8275A /* TripDetailView.swift in Sources */,
+				6B8B3A2624CC78C000D8275A /* CalendarEntryView.swift in Sources */,
+				6B34356124CDCAF000D7B469 /* NewTripView.swift in Sources */,
+				6B8B3A1F24CC773000D8275A /* Trip.swift in Sources */,
+				6B8B3A2324CC780A00D8275A /* Colors+App.swift in Sources */,
+				6B34356724CEBEC100D7B469 /* URL+App.swift in Sources */,
+				6B8B3A0B24CC768700D8275A /* TripsCalendarApp.swift in Sources */,
+				6B8B3A2C24CC80C400D8275A /* Date+Utils.swift in Sources */,
+				6B8B3A1B24CC76FD00D8275A /* CalendarView.swift in Sources */,
+				6B8B3A2924CC7CF100D8275A /* UIImage+App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8B3A0324CC768700D8275A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3435CC24CEEC7500D7B469 /* NextTrip.intentdefinition in Sources */,
+				6B34356524CEBE7B00D7B469 /* Deeplinker.swift in Sources */,
+				6B8B3A0E24CC768700D8275A /* ContentView.swift in Sources */,
+				6B88105824CDC6AD0050A4FE /* TripsStore.swift in Sources */,
+				6BAE7A2824CC8BC80057AC0A /* Location.swift in Sources */,
+				6B8B3A3024CC82EC00D8275A /* TripDetailView.swift in Sources */,
+				6B8B3A2724CC78C000D8275A /* CalendarEntryView.swift in Sources */,
+				6B34356224CDCAF000D7B469 /* NewTripView.swift in Sources */,
+				6B8B3A2024CC773000D8275A /* Trip.swift in Sources */,
+				6B8B3A2424CC780A00D8275A /* Colors+App.swift in Sources */,
+				6B34356824CEBEC100D7B469 /* URL+App.swift in Sources */,
+				6B8B3A0C24CC768700D8275A /* TripsCalendarApp.swift in Sources */,
+				6B8B3A2D24CC80C400D8275A /* Date+Utils.swift in Sources */,
+				6B8B3A1C24CC76FD00D8275A /* CalendarView.swift in Sources */,
+				6B8B3A2A24CC7CF100D8275A /* UIImage+App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B34357924CEC3FD00D7B469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B34356C24CEC3FB00D7B469 /* TripsCalendarWidgetExtension */;
+			targetProxy = 6B34357824CEC3FD00D7B469 /* PBXContainerItemProxy */;
+		};
+		6B3435C224CEEBC400D7B469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B3435BB24CEEBC400D7B469 /* NextTripIntent */;
+			targetProxy = 6B3435C124CEEBC400D7B469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B34357C24CEC3FD00D7B469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = PrimaryColor;
+				CODE_SIGN_ENTITLEMENTS = TripsCalendarWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMMUM2Q3NC;
+				INFOPLIST_FILE = TripsCalendarWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.trips.calendar.TripsCalendar.TripsCalendarWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B34357D24CEC3FD00D7B469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = PrimaryColor;
+				CODE_SIGN_ENTITLEMENTS = TripsCalendarWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMMUM2Q3NC;
+				INFOPLIST_FILE = TripsCalendarWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.trips.calendar.TripsCalendar.TripsCalendarWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B3435C524CEEBC400D7B469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMMUM2Q3NC;
+				INFOPLIST_FILE = NextTripIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.trips.calendar.TripsCalendar.NextTripIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B3435C624CEEBC400D7B469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMMUM2Q3NC;
+				INFOPLIST_FILE = NextTripIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.trips.calendar.TripsCalendar.NextTripIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8B3A1124CC768700D8275A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B8B3A1224CC768700D8275A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6B8B3A1424CC768700D8275A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TripsCalendar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMMUM2Q3NC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.trips.calendar.TripsCalendar;
+				PRODUCT_NAME = TripsCalendar;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B8B3A1524CC768700D8275A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TripsCalendar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMMUM2Q3NC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.trips.calendar.TripsCalendar;
+				PRODUCT_NAME = TripsCalendar;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8B3A1724CC768700D8275A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FMMUM2Q3NC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.trips.calendar.TripsCalendar;
+				PRODUCT_NAME = TripsCalendar;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6B8B3A1824CC768700D8275A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FMMUM2Q3NC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmoyader.trips.calendar.TripsCalendar;
+				PRODUCT_NAME = TripsCalendar;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B34357B24CEC3FD00D7B469 /* Build configuration list for PBXNativeTarget "TripsCalendarWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B34357C24CEC3FD00D7B469 /* Debug */,
+				6B34357D24CEC3FD00D7B469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B3435C424CEEBC400D7B469 /* Build configuration list for PBXNativeTarget "NextTripIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3435C524CEEBC400D7B469 /* Debug */,
+				6B3435C624CEEBC400D7B469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8B39F624CC768500D8275A /* Build configuration list for PBXProject "TripsCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8B3A1124CC768700D8275A /* Debug */,
+				6B8B3A1224CC768700D8275A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8B3A1324CC768700D8275A /* Build configuration list for PBXNativeTarget "TripsCalendar (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8B3A1424CC768700D8275A /* Debug */,
+				6B8B3A1524CC768700D8275A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8B3A1624CC768700D8275A /* Build configuration list for PBXNativeTarget "TripsCalendar (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8B3A1724CC768700D8275A /* Debug */,
+				6B8B3A1824CC768700D8275A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B8B39F324CC768500D8275A /* Project object */;
+}
